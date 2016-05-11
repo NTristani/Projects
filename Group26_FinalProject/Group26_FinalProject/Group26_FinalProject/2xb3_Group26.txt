@@ -1,0 +1,10 @@
+COMP SCI 2XB3/SFWR ENG 2XB3
+1305055, John Peng, Lead - Algorithm
+1408296, Nathan Mangaoil, Server
+1412031, Nicolas Tristani, Documentation/Presentation
+1424378, Dragan Visekruna, Webpage
+
+NOTE: If running from eclipse, the amazon review text file (foods.txt) must be located in the same folder as eclipse.exe.
+Usually in MyDocuments/Eclipse/eclipse
+
+The work that is being submitted is our group's own work.

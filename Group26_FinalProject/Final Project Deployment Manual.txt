@@ -1,0 +1,57 @@
+NOTE: This project was tested using Tomcat 7.0.68
+
+HOW TO FIX MISSING BACKGROUNDS
+	This requires you to replace some lines  in index.jsp, HelloWorld.java, and Manager.java
+	index.jsp (located in Group26_FinalProject/WebContent)
+		line 9: replace "/ExampleWebProject/congruent_outline.css";
+				with "/Group26_FinalProject/congruent_outline.css";
+				
+		line 16: replace <link rel="stylesheet" href="/ExampleWebProject/style.css">
+				with <link rel="stylesheet" href="/Group26_FinalProject/style.css">
+				
+		line 19: replace <body background= "/ExampleWebProject/congruent_outline.png">
+				with <body background= "/Group26_FinalProject/congruent_outline.png">
+				
+	HelloWorld.java (located in Group26_FinalProject/src/com/example/servlets)
+		line 49: replace "<title> Review It!  </title> \n" + "<link rel=stylesheet href=/ExampleWebProject/style.css> \n" +
+				with "<title> Review It!  </title> \n" + "<link rel=stylesheet href=/Group26_FinalProject/style.css> \n" +
+		
+		line 51: replace "<body>  <body background= /ExampleWebProject/congruent_outline.png> <div align='center'> \n" +
+				with "<body>  <body background= /Group26_FinalProject/congruent_outline.png> <div align='center'> \n" +
+				
+	Manager.java (located in Group26_FinalProject/src/com/example/servlets)
+		line 44: replace "<title> Review It!  </title> \n" + "<link rel=stylesheet href=/ExampleWebProject/style.css> \n" +
+				with "<title> Review It!  </title> \n" + "<link rel=stylesheet href=/Group26_FinalProject/style.css> \n" +
+				
+		line 46: replace "<body>  <body background= /ExampleWebProject/congruent_outline.png>  <div align='center'> \n" +
+				with "<body>  <body background= /Group26_FinalProject/congruent_outline.png>  <div align='center'> \n" +
+				
+		line 62: replace "<title> Review It!  </title> \n" + "<link rel=stylesheet href=/ExampleWebProject/style.css> \n" +
+				with "<title> Review It!  </title> \n" + "<link rel=stylesheet href=/Group26_FinalProject/style.css> \n" +
+				
+		line 64: replace "<body>  <body background= /ExampleWebProject/congruent_outline.png>  <div align='center'> \n" +
+				with "<body>  <body background= /Group26_FinalProject/congruent_outline.png>  <div align='center'> \n" +
+
+Setting up the dataset
+		In the root of the Group26_FinalProject folder there are 2 copies of the Amazon food review dataset. 
+		foods.txt is the full dataset and foods_test.txt is a small portion of it. Select one of these files and
+		place it into the same folder as the eclipse.exe file (Usually found in MyDocuments/Eclipse/eclipse).
+		If you plan on running the project through Tomcat on its own, then place the dataset into your Tomcat's 
+		bin folder (For example MyDocuments/apache-tomcat-7.0.68/bin).
+		NOTE: For testing, it's recommended that you use the smaller dataset in order for the algorithm to run quicker.
+
+
+
+Running through Eclipse:
+	1. Import the Group26_FinalProject project into Eclipse.
+	2. Setup a Tomcat 7.0 server
+	3. Add the Group26_FinalProject project to the Tomcat server (In the servers tab, right click the server -> Add and Remove..)
+	4. Start the server.
+	5. The project can be accessed by going to http://localhost:8080/Group26_FinalProject/
+	
+Running through Tomcat
+	1. Import the Group26_FinalProject project into Eclipse.
+	2. Export Group26_FinalProject as a WAR file.
+	3. Place this WAR file in your Tomcat's webapps folder (.../apache-tomcat-7.0.68/webapps).
+	4. Go to your Tomcat's bin folder and run startup.bat
+	5. The project can be accessed by going to http://localhost:8080/Group26_FinalProject/
