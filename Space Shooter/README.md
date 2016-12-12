@@ -1,3 +1,3 @@
 #SUBMISSION FOR DELTA HACKS 2015
 
-Winner of the Mac GDA Game development Award
+Winner of the Mac GDA Game Development Award
