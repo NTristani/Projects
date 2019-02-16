@@ -1,3 +1,3 @@
 # Projects
 
-Contains projects I found the most important
+Contains my most memorable projects
