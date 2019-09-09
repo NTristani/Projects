@@ -1,4 +1,4 @@
-#SUBMISSION FOR DELTA HACKS 2015#
+# SUBMISSION FOR DELTA HACKS 2015
 
 Winner of the Mac GDA Game Development Award
 
