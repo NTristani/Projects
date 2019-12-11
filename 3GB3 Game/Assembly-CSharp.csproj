@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{C34D51A9-9BD9-4154-685A-88CC3A04CBE9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VIDEO;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Framework\Asvarduil Project AI System\Examples\ScaryObjectSense.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project AI System\Examples\SmartWanderer.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project AI System\Examples\Wanderer.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project AI System\Framework\BaseAI.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project AI System\Framework\BehaviorNode.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project AI System\Framework\ICheckableState.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project AI System\Framework\IEvaluatesState.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project AI System\Framework\State.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project AI System\Framework\StateMachine.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilButton.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilCheckbox.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilForm.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilGUIBase.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilGUIInterfaces.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilImage.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilImageButton.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilLabel.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilMessageBox.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilSlider.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilStaticImage.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilStaticLabel.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\AsvarduilTooltip.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\FloatingButton.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\FloatingGUIBase.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\FloatingTexture.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\SettingsForm.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\classes\TweenableElement.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project GUI System\scripts\SettingsGUI.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\behaviors\ManagerMonoBehavior.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\behaviors\TransitionManager.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\classes\Settings.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\gui\Fader.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\CameraTrigger.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\Maestro.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\MapSpeechTrigger.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\MasterMaterialAssigner.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\MeshCombiner.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\RPGCamera.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\SceneDespawner.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\SceneSpawner.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\SceneTransition.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\SenseEntities.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\Teleporter.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\VolumeFromSettingsSFX.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\Waypoint.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\WaypointMapAI.cs" />
+     <Compile Include="Assets\Framework\Asvarduil Project RPG Control System\scripts\WorldMapPlayerControl.cs" />
+     <Compile Include="Assets\Framework\Side-Scrolling Controller\Base\DebuggableBehavior.cs" />
+     <Compile Include="Assets\Framework\Side-Scrolling Controller\Scripts\CameraFreezeTrigger.cs" />
+     <Compile Include="Assets\Framework\Side-Scrolling Controller\Scripts\PlayerAnimationKey.cs" />
+     <Compile Include="Assets\Framework\Side-Scrolling Controller\Scripts\PlayerAnimationManager.cs" />
+     <Compile Include="Assets\Framework\Side-Scrolling Controller\Scripts\PlayerControl.cs" />
+     <Compile Include="Assets\Framework\Side-Scrolling Controller\Scripts\PlayerControlState.cs" />
+     <Compile Include="Assets\Framework\Side-Scrolling Controller\Scripts\SceneChangeTrigger.cs" />
+     <Compile Include="Assets\Framework\Side-Scrolling Controller\Scripts\SidescrollingCamera.cs" />
+     <Compile Include="Assets\Framework\Side-Scrolling Controller\Scripts\SidescrollingMovement.cs" />
+     <Compile Include="Assets\Framework\Side-Scrolling Controller\Scripts\SidescrollingMovementType.cs" />
+     <Compile Include="Assets\Framework\Sprite System\AnimationBase.cs" />
+     <Compile Include="Assets\Framework\Sprite System\HitboxController.cs" />
+     <Compile Include="Assets\Framework\Sprite System\SpriteSystem.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\AIBase.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\Artasandro.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\Barbariccia.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\NPC.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\PedestrianMovement.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\PlayerSense.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\Shototo.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\Slime.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\SpiralProjectileSpam.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\Spyder.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\Steelguard.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\Teleghast.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\AI\Teleportation.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\ActivateObjectsOnDeath.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\AlterThreadOnDeath.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\BreaksBreakables.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\CombatSkills.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\DamageSource.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\HealthSystem.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\ParriesBlueMagic.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\Projectile.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\ProjectileProjector.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\RepellingObject.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\Shield.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Combat\WebbingEffect.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Dialogue\ActivateConversationObjects.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Dialogue\Door.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Dialogue\EntityText.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Dialogue\SceneChangeConversationEffect.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Dialogue\SceneTeleporter.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Dialogue\TeleportConversationEffect.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\GUI\DialogueGUI.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\GUI\GameOverGUI.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\GUI\PauseGUI.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\GUI\PlayerHealthProvider.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\GUI\QuestGUI.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\GUI\TitleGUI.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Pickups\AlterWeapon.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Pickups\HealthPickup.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Pickups\HeartContainer.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Pickups\SkillPickup.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\Pickups\SpawnLoot.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\Ambassador.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\BossRoomTrigger.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\CloneKiller.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\EntitySpawner.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\IPausableEntity.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\InitializationScenePass.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\ObjectiveSparkle.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\PlayerDeathReloader.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\PressureSwitch.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\ProjectileGroup.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\SaveFileAccess.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\SwitchComboActivator.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\SwitchDespawner.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\WindBlock.cs" />
+     <Compile Include="Assets\Game-Specific Assets\Scripts\System\WorldMapControl.cs" />
+     <Compile Include="Assets\WooglieAPI\Plugins\WoogliePiracyProtection.cs" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\WooglieAPI\Settings\settings.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\WooglieAPI\README.txt" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{988400B8-D234-7E9A-4C94-A0874836C207}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
